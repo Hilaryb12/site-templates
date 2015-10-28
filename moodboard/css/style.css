@@ -1,0 +1,47 @@
+body {
+  color: #000;
+  font-size: 14px;
+  font-family: "Sans Serif";
+}
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.lg-imgs {
+  width: 100%;
+}
+
+.sm-imgs {
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 25%;
+  margin-right: 1%;
+  float: left;
+}
+
+.color-pallette {
+  width: 74%;
+  float: right;
+  clear: right;
+}
+
+.color-pallette ul {
+  margin-top: 0;
+}
+
+.color-pallette ul li {
+  display: inline-block;
+  padding: 2%;
+  margin: 10px;
+  background-color: #990000;
+  color: #fff;
+}
