@@ -1,8 +1,9 @@
 body {
   color: #000;
   font-size: 14px;
-  font-family: "Sans Serif";
+  font-family: "OpenSans";
 }
+
 .container {
   width: 960px;
   margin: auto;
@@ -14,7 +15,7 @@ body {
 
 .sm-imgs {
   width: 48%;
-  margin: 1%;
+  margin: 0 1%;
   float: left;
 }
 
@@ -22,9 +23,16 @@ img {
   width: 100%;
 }
 
+.logo-colors {
+  margin: 1% 0;
+  clear: both;
+  min-height: 100px;
+}
+
 .logo {
   width: 25%;
   margin-right: 1%;
+  margin-bottom: 1%;
   float: left;
 }
 
@@ -42,6 +50,50 @@ img {
   display: inline-block;
   padding: 2%;
   margin: 10px;
-  background-color: #990000;
+  background-color: #cccccc;
   color: #fff;
+}
+
+li#li-1 {
+  background-color: #990000;
+}
+
+li#li-2 {
+  background-color: #590000;
+}
+
+.text-styles {
+  width: 48%;
+  margin: 1%;
+}
+
+.text-styles blockquote {
+  font-style: italic;
+  border-left: solid #990000 2px;
+  padding-left: 15px;
+}
+
+.buttons-forms {
+  width: 48%;
+  float: right;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: #590000;
+}
+
+input[type="submit"]:hover {
+  background-color: #990000;
+  box-shadow: 0px 5px 3px #DDD;
+  transition: .2s linear;
 }
