@@ -4,24 +4,36 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="container">
-    <div class="lg-imgs">
-      <img src="../images/shutterstock_123171955.jpg" />
+    <div class="row">
+      <div class="lg-imgs col-md-12">
+        <img src="../images/shutterstock_123171955.jpg" />
+      </div>
     </div>
-    <div class="sm-imgs">
-      <img src="../images/shutterstock_123171955.jpg" />
+    <div class="row">
+      <div class="sm-imgs col-md-6 col-xs-12">
+        <img src="../images/shutterstock_123171955.jpg" />
+      </div>
+      <div class="sm-imgs col-md-6 col-xs-12">
+        <img src="../images/shutterstock_123171955.jpg" />
+      </div>
     </div>
-    <div class="sm-imgs">
-      <img src="../images/shutterstock_123171955.jpg" />
-    </div>
-    <div class="logo-colors">
-      <div class="logo">
+    <div class="logo-colors row">
+      <div class="logo col-md-4">
         <img src="../images/logoexample.png" />
       </div>
-      <div class="color-pallette">
+      <div class="color-pallette col-md-8">
         <ul>
           <li id="li-1">
             <p>#990000</p>
@@ -41,23 +53,44 @@
         </ul>
       </div>
     </div>
-    <div class="buttons-forms">
-      <input type="text" value="I am a text box...">
-      <br>
-      <input type="submit" valye="Submit">
-    </div>
-    <div class="text-styles">
-      <p>Titles (Open Sans)</p>
-      <h1>Lorem Ipsum</h1>
-      <h2>Lorem Ipsum</h2>
-      <h3>Lorem Ipsum</h3>
-      <p>Body Content (Open Sans)</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien quam, euismod vitae commodo quis, elementum a est. Donec a rhoncus orci. Pellentesque porta vehicula lectus, pellentesque elementum magna tincidunt ac. Cum sociis natoque penatibus
-        et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tempus turpis ipsum, ut vulputate quam vehicula et. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien quam, euismod vitae commodo quis, elementum a est. Donec a rhoncus orci. Pellentesque porta vehicula lectus, pellentesque elementum magna tincidunt ac. Cum sociis natoque penatibus
-        et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tempus turpis ipsum, ut vulputate quam vehicula et. </p>
-      <p>Blockquote (Open Sans, italic)</p>
-      <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien quam, euismod vitae commodo quis, elementum a est. Donec a rhoncus orci. Pellentesque porta vehicula lectus, pellentesque elementum magna tincidunt ac.</blockquote>
+    <div class="row">
+      <div class="text-styles col-md-4">
+        <p>Titles (Open Sans)</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <p>Body Content (Open Sans)</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien quam, euismod vitae commodo quis, elementum a est. Donec a rhoncus orci. Pellentesque porta vehicula lectus, pellentesque elementum magna tincidunt ac. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tempus turpis ipsum, ut vulputate quam vehicula et. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien quam, euismod vitae commodo quis, elementum a est. Donec a rhoncus orci. Pellentesque porta vehicula lectus, pellentesque elementum magna tincidunt ac. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tempus turpis ipsum, ut vulputate quam vehicula et. </p>
+      </div>
+      <div class="lists col-md-4">
+        <p>Ordered Lists</p>
+        <ol>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ol>
+        <p>Un Ordered Lists</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </div>
+      <div class="buttons-forms col-md-4">
+        <div>
+          <p>Blockquote (Open Sans, italic)</p>
+          <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien quam, euismod vitae commodo quis, elementum a est. Donec a rhoncus orci. Pellentesque porta vehicula lectus, pellentesque elementum magna tincidunt ac.</blockquote>
+        </div>
+        <div>
+          <p>Forms & Buttons</p>
+        <input type="text" value="I am a text box...">
+        <br>
+        <input type="submit" valye="Submit">
+      </div>
+      </div>
     </div>
 
 

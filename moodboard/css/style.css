@@ -4,23 +4,16 @@ body {
   font-family: "OpenSans";
 }
 
-.container {
-  width: 960px;
-  margin: auto;
+img {
+  width: 100%;
 }
 
 .lg-imgs {
-  width: 100%;
+  margin: 1% 0;
 }
 
 .sm-imgs {
-  width: 48%;
-  margin: 0 1%;
-  float: left;
-}
-
-img {
-  width: 100%;
+  margin: 1% 0;
 }
 
 .logo-colors {
@@ -29,21 +22,9 @@ img {
   min-height: 100px;
 }
 
-.logo {
-  width: 25%;
-  margin-right: 1%;
-  margin-bottom: 1%;
-  float: left;
-}
-
-.color-pallette {
-  width: 74%;
-  float: right;
-  clear: right;
-}
-
 .color-pallette ul {
   margin-top: 0;
+  padding: 0;
 }
 
 .color-pallette ul li {
@@ -62,20 +43,10 @@ li#li-2 {
   background-color: #590000;
 }
 
-.text-styles {
-  width: 48%;
-  margin: 1%;
-}
-
 .text-styles blockquote {
   font-style: italic;
   border-left: solid #990000 2px;
   padding-left: 15px;
-}
-
-.buttons-forms {
-  width: 48%;
-  float: right;
 }
 
 input[type="text"] {
